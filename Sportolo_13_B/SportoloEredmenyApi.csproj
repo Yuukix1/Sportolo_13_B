@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>SportoloEredmenyApi</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Adatbázis eléréshez -->
+    <PackageReference Include="MySqlConnector" Version="2.4.0" />
+    <!-- OpenAPI leíró + Scalar tesztelő felület -->
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.0" />
+    <PackageReference Include="Scalar.AspNetCore" Version="2.0.15" />
+  </ItemGroup>
+
+</Project>
