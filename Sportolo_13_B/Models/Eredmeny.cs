@@ -1,8 +1,6 @@
 namespace SportoloEredmenyApi.Models;
 
-/// <summary>
-/// Az eredmeny tábla egy sorát reprezentálja.
-/// </summary>
+
 public class Eredmeny
 {
     public int Id { get; set; }
